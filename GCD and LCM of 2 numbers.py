@@ -9,12 +9,12 @@ def gcd(num1,num2):
 		return(gcd(num2%num1,num1))
 
 # Taking 2 numbers as input
-a = int(input("Enter the first number : "))
-b = int(input("Enter the second number : "))
+input1 = int(input("Enter the first number : "))
+input2 = int(input("Enter the second number : "))
 
-# Computing the LCM and GCD
-ans1 = gcd(a,b) # GCD of 2 numbers
-ans2 = a*b//ans1 # LCM of 2 numbers
+# Calculating the LCM and GCD of the given 2 numbers
+result1 = gcd(inpu1,input2) # Caculating the 
+result2 = input1*input2//result1
 
 # Printing the answer
-print("The GCD of 2 numbers is " + str(ans1) + " and the LCM is "+ str(ans2))
+print("The GCD of the 2 numbers is " + str(result1) + " and the LCM of those 2 numbers is "+ str(result2))
