@@ -28,6 +28,6 @@ while dup__n!=0:
     dup__n //= 10
 
 if sum_digits_pow==n:
-    print(n, "is an amstrong number")
+    print(n, "is an armstrong number")
 else:
-    print(n, "is not an amstrong number")
+    print(n, "is not an armstrong number")
