@@ -1,4 +1,4 @@
-# Program to Represent a Sparse Matrix using functions
+# Program to add 2 Sparse Matrices
 # J. Raghuramjee - 121910313004
 
 # Function to represent the Sparse Matrix
