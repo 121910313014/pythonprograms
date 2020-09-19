@@ -46,6 +46,7 @@ def add(arr1,arr2):
 
 # Function to print martix
 def print_martix(arr):
+    if arr==[]: print('EMPTY MATRIX')
     for i in arr:
         print(*i)
 
