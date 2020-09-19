@@ -15,6 +15,7 @@ def sparse_matrix(arr):
 
 # Function to print martix
 def print_martix(arr):
+    if arr==[]: print('EMPTY MATRIX')
     for i in arr:
         print(*i)
 
