@@ -35,22 +35,8 @@ class LinkedList:
             # Traversing through each element and printing it
             print(cur.data)
             cur = cur.next
-    
-    # Method to print the linked list in reverse
-    def print_list_reverse(self):
-        if self.head is None:
-            print("EMPTY LINKED LIST")
-            return
-        s = []
-        cur = self.head
-        while cur:
-            # Traversing through each element
-            s.append(cur.data)
-            cur = cur.next
-        # Printing in reverse
-        while s:
-            print(s.pop())
-    
+     
+    # Method for maximum and minimum elements in linked list
     def min_max(self):
         if self.head is None:
             print("EMPTY LINKED LIST")
