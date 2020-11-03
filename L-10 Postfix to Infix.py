@@ -1,3 +1,5 @@
+# Postfix to Infix
+# J. Raghuramjee 121910313004
 def postfix(s):
 	stack = []
 	for i in s:
