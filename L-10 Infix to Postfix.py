@@ -1,13 +1,14 @@
+# Infix to Postfix
+# J. Raghuramjee 121910313004
 def isgreater(e1,e2):
-	if e1=='*' and e2=='/': return True
-	if e1=='*' and e2=='+': return True
-	if e1=='*' and e2=='-': return True
-	if e1=='/' and e2=='*': return True
-	if e1=='/' and e2=='+': return True
-	if e1=='/' and e2=='-': return True
-	if e1=='+' and e2=='-': return True
-	if e1=='-' and e2=='+': return True
+def isgreater(e1,e2):
+	val = {'+': 1,
+		'-': 1,
+		'*': 2,
+		'/': 2}
+	if val[e1]>=val[e2]: return True
 	return False
+
 
 def infixtopostfix(s):
 	char = []
